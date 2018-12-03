@@ -2,6 +2,7 @@ extern crate aoc2018;
 
 use std::env;
 use aoc2018::day1;
+use aoc2018::day2;
 
 
 struct AocResult {
@@ -26,6 +27,12 @@ fn main() {
             AocResult {
                 part1: day1::part1(),
                 part2: day1::part2()
+            }
+        },
+        "day2" => {
+            AocResult {
+                part1: day2::part1(),
+                part2: day2::part2()
             }
         },
         _ => AocResult {
