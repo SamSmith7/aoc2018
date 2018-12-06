@@ -4,6 +4,7 @@ use std::env;
 use aoc2018::day1;
 use aoc2018::day2;
 use aoc2018::day3;
+use aoc2018::day4;
 
 
 struct AocResult {
@@ -40,6 +41,12 @@ fn main() {
             AocResult {
                 part1: day3::part1(),
                 part2: day3::part2()
+            }
+        },
+        "day4" => {
+            AocResult {
+                part1: day4::part1(),
+                part2: day4::part2()
             }
         },
         _ => AocResult {
