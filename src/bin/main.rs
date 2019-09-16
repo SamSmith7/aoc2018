@@ -8,6 +8,7 @@ use aoc2018::day4;
 use aoc2018::day5;
 use aoc2018::day6;
 use aoc2018::day7;
+use aoc2018::day8;
 
 
 struct AocResult {
@@ -68,6 +69,12 @@ fn main() {
             AocResult {
                 part1: day7::part1(),
                 part2: day7::part2()
+            }
+        },
+        "day8" => {
+            AocResult {
+                part1: day8::part1(),
+                part2: day8::part2()
             }
         },
         _ => AocResult {
